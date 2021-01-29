@@ -1,0 +1,82 @@
+@import url('http://fonts.cdnfonts.com/css/ninja-naruto');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Ninja Naruto', sans-serif;
+    word-spacing:15px;
+    text-shadow:1px 1px black;
+    color:white;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    background-image: url('Photos/bg1.jpg');
+    background-repeat:none;
+    background-size:100% 100%;
+    
+}
+
+.container{
+    width:2500px;
+    max-width:30%;
+    background-color:#00316E;
+    box-shadow:5px 5px rgba(0,0,0,0.8);
+    border:black 2px solid;
+    border-radius:20px;
+    padding:20px; 
+    text-align:center;  
+}
+.btn-grid{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+}
+
+.btn{
+    border-radius:10px;
+    padding:10px;
+    background-color:#1A90D1;
+    box-shadow:5px 5px rgba(0,0,0,0.8);
+    transition: all 0.5s ease;
+    &:hover{
+        border-color:black;
+        cursor:pointer;
+        transform: scale(1.1);
+    }
+
+}
+
+.btn.correct{
+    background-color: #6E9D33;
+}
+.btn.wrong{
+    background-color: #BF2326;
+}
+
+.controls{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+}
+
+.ending{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+}
+.hide{
+    display:none;
+}
+
+
+
+
+

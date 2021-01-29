@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  
+  <title>Quiz App</title>
+</head>
+<body>
+  <div class="container">
+    <ul id = "opening">
+      <li>Every correct answer is worth +2</li>
+      <li>Every wrong answer is worth -1</li>
+      <li>You can answer as many times</li>
+    </ul>
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn" >Answer 1</button>
+        <button class="btn" >Answer 2</button>
+        <button class="btn" >Answer 3</button>
+        <button class="btn" >Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+      <button id="result-btn" class = "result-btn btn hide">Results</button>
+      <button id = 'restart-btn' class = "restart-btn btn hide">Retry</button>  
+    </div>
+    <div id = "ending" class= "hide"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
