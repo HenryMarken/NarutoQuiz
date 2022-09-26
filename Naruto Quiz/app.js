@@ -111,7 +111,7 @@ const questions = [
         ]
     },
     {
-        question: 'Q3. How many answers did Naruto answer correctly in the first',
+        question: 'Q3. How many answers did Naruto answer correctly in the first Chunin Exam',
         answers: [
             {text:'All of them (he cheated)', correct:false},
             {text:'Zero', correct:true},
